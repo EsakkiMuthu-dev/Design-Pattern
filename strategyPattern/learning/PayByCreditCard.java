@@ -1,4 +1,4 @@
-package strategyPattern;
+package strategyPattern.learning;
 
 public class PayByCreditCard implements PaymentStrategy
 {

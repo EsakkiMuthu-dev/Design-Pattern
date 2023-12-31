@@ -1,4 +1,4 @@
-package strategyPattern;
+package strategyPattern.learning;
 
 import java.util.Scanner;
 
