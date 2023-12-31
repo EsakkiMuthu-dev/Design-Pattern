@@ -1,6 +1,21 @@
 package observerPattern;
 
 public class RealtimeMetrics implements Observer {
+    private static RealtimeMetrics instance;
+    //create singleton class for relatimemetrics class
+    private RealtimeMetrics(){
+        
+    }
+    public static RealtimeMetrics getInstance() {
+        if (instance == null) {
+            synchronized (RealtimeMetrics.class) {
+                if (instance == null) {
+                    instance = new RealtimeMetrics();
+                }
+            }
+        }
+        return instance;
+    }
 
     int likes=0;
     int comments=0;
