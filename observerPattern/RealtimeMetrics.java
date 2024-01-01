@@ -1,7 +1,7 @@
 package observerPattern;
 
 public class RealtimeMetrics implements Observer {
-    private static RealtimeMetrics instance;
+    private static volatile RealtimeMetrics instance;
     //create singleton class for relatimemetrics class
     private RealtimeMetrics(){
         
