@@ -8,5 +8,6 @@ public class TextMemento {
     public String getState(){
         return state;
     }
+   
     
 }
