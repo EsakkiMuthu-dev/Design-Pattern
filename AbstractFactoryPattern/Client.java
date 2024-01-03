@@ -17,6 +17,10 @@ public class Client
 			formalDressFactory.getShirt().give();
 			formalDressFactory.getPant().give();
 		}
+		else if(choice==4)
+		{
+			System.out.println("Hello");
+		}
 		else if(choice ==2)
 		{
 			CasualDressFactory casualDressFactory = new CasualDressFactory();
